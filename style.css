@@ -1,5 +1,6 @@
 body {
   background-color: rgb(48, 45, 45);
+
 }
 #mkBackground {
  display: inline-flex;
@@ -9,8 +10,9 @@ body {
 
 .firstNavButtons {
   position:absolute;
-    top:10px;
-    left:10px;
+    top:8px;
+    left:15px;
+    padding-top: 10px;
 }
 
 button {
@@ -19,14 +21,84 @@ button {
   color: white;
   border: none;
   font-size: 13px;
+  opacity: 70%;
 }
 
 button:hover {
   font-size: 14px;
+  background-color: rgb(167, 167, 167);
+  opacity: 100%;
+  cursor: pointer;
+  
 }
 
 .firstNave3 {
   margin-left: 750px;
 }
 
+.socialMediaLogos {
+  display: inline;
+  position: absolute;
+  margin-left: 1600px;
+  opacity: 50%;
+  padding-top: 10px;
+}
 
+.youtube, 
+.facebook,
+.tweeter,
+.instagram 
+{
+  width: 20px;
+  margin-left: 5px;
+}
+
+.youtube:hover, 
+.facebook:hover,
+.tweeter:hover,
+.instagram:hover {
+cursor: pointer;
+opacity: 100%;
+width: 23px;
+}
+
+.logIn {
+  display: inline;
+  position: absolute;
+  left: 1750px;
+  padding-top: 10px;
+}
+
+.secondNavBar {
+  display: inline;
+  position: fixed;
+  margin-top: 88px;
+  margin-left: 35px;
+}
+
+#secondButtons {
+
+  font-size: 20px;
+}
+
+#secondButtons:hover {
+  transition-delay: 0.3s;
+}
+
+.certeralMortalKombat {
+  display:inline;
+  position: fixed;
+  margin-top: 400px;
+  padding-left: 350px;
+}
+
+
+#mkflame{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: inline;
+  top:350px;
+  justify-content: center;
+  align-items: center;
+}
