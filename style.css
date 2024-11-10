@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(48, 45, 45);
+}
+#mkBackground {
+ display: inline-flex;
+ position:absolute;
+ object-fit:fill;
+}
+
+.firstNavButtons {
+  position:absolute;
+    top:10px;
+    left:10px;
+}
+
+button {
+  display: inline;
+  background: none;
+  color: white;
+  border: none;
+  font-size: 13px;
+}
+
+button:hover {
+  font-size: 14px;
+}
+
+.firstNave3 {
+  margin-left: 750px;
+}
+
+
