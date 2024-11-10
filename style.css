@@ -71,8 +71,8 @@ width: 23px;
 
 .secondNavBar {
   display: inline;
-  position: fixed;
-  margin-top: 88px;
+  position: relative;
+  top: 100px;
   margin-left: 35px;
 }
 
@@ -87,18 +87,35 @@ width: 23px;
 
 .certeralMortalKombat {
   display:inline;
-  position: fixed;
-  margin-top: 400px;
+  position: relative;
+  top: 400px;
   padding-left: 350px;
 }
 
 
-#mkflame{
+#mkflame1{
   position: absolute;
   width: 100%;
   height: 100%;
   display: inline;
-  top:350px;
+  top:300px;
   justify-content: center;
   align-items: center;
+}
+
+#mkflame2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: inline;
+  top:550px;
+  justify-content: center;
+  align-items: center;
+}
+
+#mkbuttonVideo {
+  display: inline;
+  position:relative;
+  object-fit:cover; 
+  top:750px;
 }
