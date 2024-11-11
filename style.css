@@ -1,17 +1,23 @@
 body {
-  background-color: rgb(48, 45, 45);
+  background-color:black;
+
+a {
+  text-decoration: none;
+}  
 
 }
 #mkBackground {
  display: inline-flex;
- position:absolute;
- object-fit:fill;
+ position:fixed;
+ width: 100%;
+ object-fit:fill ;
 }
 
 .firstNavButtons {
-  position:absolute;
+  position:fixed;
     top:8px;
     left:15px;
+    width: 100%;
     padding-top: 10px;
 }
 
@@ -38,8 +44,8 @@ button:hover {
 
 .socialMediaLogos {
   display: inline;
-  position: absolute;
-  margin-left: 1600px;
+  position: fixed;
+  margin-left: 1700px;
   opacity: 50%;
   padding-top: 10px;
 }
@@ -64,14 +70,14 @@ width: 23px;
 
 .logIn {
   display: inline;
-  position: absolute;
-  left: 1750px;
+  position:fixed;
+  left:1900px;
   padding-top: 10px;
 }
 
 .secondNavBar {
   display: inline;
-  position: relative;
+  position: fixed;
   top: 100px;
   margin-left: 35px;
 }
@@ -89,33 +95,36 @@ width: 23px;
   display:inline;
   position: relative;
   top: 400px;
-  padding-left: 350px;
+  left: 50px;
+}
+
+.mkTitleCentral {
+  width: 900px;
+}
+
+.liuKangpic {
+  display: flex;
+  position:fixed;
+  left: 1700px;
 }
 
 
-#mkflame1{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: inline;
-  top:300px;
-  justify-content: center;
-  align-items: center;
+
+.flames
+{
+  position: fixed;
+  top: 825px;
+  transform: skewY(-1deg);
+  mix-blend-mode:screen;
 }
 
-#mkflame2{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: inline;
-  top:550px;
-  justify-content: center;
-  align-items: center;
+.fireBKGSpecs {
+  display: block;
+  position: fixed;
+  top: 890px;;
+  object-fit: fill;
+  opacity: 50%;
+  mix-blend-mode:screen;
 }
 
-#mkbuttonVideo {
-  display: inline;
-  position:relative;
-  object-fit:cover; 
-  top:750px;
-}
+
